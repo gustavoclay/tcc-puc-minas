@@ -1,0 +1,13 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "local-h2",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "br.com.geduca.api.GeducaWebApplication",
+            "projectName": "geduca-api",
+            "vmArgs": "-Dspring.profiles.active=local-h2 -Dspring.output.ansi.enabled=ALWAYS",
+        }
+    ]
+}
